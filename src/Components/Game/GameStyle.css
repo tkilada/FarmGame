@@ -1,0 +1,61 @@
+.GameBox{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.BarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: darkcyan;
+    height: 20%;
+    width: 100%;
+}
+.playerInventory{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: solid maroon thick;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+}
+.MonthBar{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    border: maroon solid thick;
+}
+
+.RoomPage{
+    border: thick black solid;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: stretch;
+}
+
+.DateBox{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+.Date{
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    width: 100%;
+    justify-content: center;
+}
+.ActionPoints{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background-color: orangered;
+    border: solid thin maroon;
+}
+

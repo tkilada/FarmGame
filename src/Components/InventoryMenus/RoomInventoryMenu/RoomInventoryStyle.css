@@ -1,0 +1,15 @@
+.RoomInventoryContainer{
+    display: flex;
+    background-color: lightgray;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid brown thick;
+    width: 100%;
+}
+
+.RoomitemLabel{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+}

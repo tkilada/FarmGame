@@ -1,0 +1,49 @@
+.ActionBox{
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    }
+    
+.MoveButtonsFlexBox{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px maroon;
+    /* align-items: flex-start; */
+    /* justify-content: center; */
+    width: 100%;
+    height: 100%;
+}
+
+
+.SaveLoadBox{
+    width: 100%;
+    border: solid 1px maroon;
+    /* align-self: flex-end; */
+    height: 100%;
+}
+
+.SaveForm{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.SaveBTN{
+    padding: 2em;
+}
+.LoadBox{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin: 1em;
+}
+.LoadBTN{
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 0.5em;
+}

@@ -1,0 +1,45 @@
+
+*{
+  box-sizing: border-box;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  display: flex;
+  height: 100%;
+  flex-grow: 1;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: lightcoral;
+  align-items: stretch;
+  justify-content: center;
+}
+
+#root{
+  width: 100%;
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+
+}
+
+.App{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  width: 100%;
+  align-items: stretch;
+} 
+

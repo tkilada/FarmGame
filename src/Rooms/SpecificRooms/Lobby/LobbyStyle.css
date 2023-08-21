@@ -1,0 +1,50 @@
+
+.Lobby{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-color: lightcoral;
+    flex-grow: 1;
+    height: 100%;
+}
+.LoginSignUp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    height: 100%;
+    flex-grow: 1;
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    flex-grow: 1;
+}
+.Group{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    /* width: 100%; */
+}
+.FormGroup{
+    width: 100%;
+}
+Input{
+    height: 3em;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em; 
+}
+.BTN{
+   width: 100%;
+   margin:1em;
+}
+.text{
+    align-self: center;
+    height: 10%;
+}
